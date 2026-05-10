@@ -154,6 +154,15 @@ python scripts/check_fingerprint.py
 - [指纹伪装说明](docs/FINGERPRINT_GUIDE.md) - 浏览器指纹随机化原理
 - [移动设备模拟](docs/MOBILE_GUIDE.md) - 移动端 User-Agent 配置
 - [地区配置说明](docs/README_REGION.md) - 多地区环境隔离
+- [仓库安全审计报告](docs/SECURITY_AUDIT.md) - 全量静态安全审计结论与逐文件分析
+
+## 安全
+
+本仓库是从上游 fork 而来的代码。为确保使用者知情，已对全量代码进行静态安全审计，详见：
+
+[仓库安全审计报告 · SECURITY_AUDIT.md](docs/SECURITY_AUDIT.md)
+
+审计结论：**未发现后门、信息外传或恶意代码**。同时也列出了 3 个非恶意但值得注意的问题（法律/ToS、配置不一致、可追溯性），使用前建议阅读。
 
 ## 常见问题
 
